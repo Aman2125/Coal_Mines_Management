@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 200px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333; /* Dark color for better visibility */
+  cursor: pointer; /* Make the items clickable */
+  transition: color 0.3s, background-color 0.3s;
+  padding: 10px; /* Add padding for a better clickable area */
+  border-radius: 5px; /* Rounded corners for items */
+}
+
+.sidebar li:hover {
+  color: #fff; /* Change text color on hover */
+  background-color: #007bff; /* Background color on hover */
+}
+
+.sidebar li a {
+  text-decoration: none;
+  color: inherit; /* Inherit color to apply hover effect */
+  display: block; /* Makes the whole item clickable */
+}
+
+/* Main Content Styles */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 200px;
+  padding: 5px;
+}
+
+.user-settings {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Safety Dashboard Section */
+.safety-dashboard {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.overview-item {
+  margin-bottom: 20px;
+}
+
+/* Editable Fields */
+.editable-field {
+  margin: 10px 0;
+  padding: 5px;
+  width: 100%;
+}
+
+textarea.editable-field {
+  height: 100px;
+  resize: none;
+}
+
+/* Button Styles */
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Section Styles */
+.safety-expenses,
+.safety-performance,
+.side-announcements,
+.incident-log {
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Flexbox for Incident Log Items */
+.incident-log-container,
+.safety-announcements-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.incident-log-item,
+.safety-announcement-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Add, Edit, Delete, and Save Buttons for Lists */
+.add-button,
+.save-button,
+.edit-button,
+.delete-button {
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover,
+.save-button:hover,
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #218838;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+/* Additional Styles for Dynamic Sections */
+.add-item-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-item-button:hover {
+  background-color: #138496;
+}
