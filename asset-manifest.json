@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Coal_Mines_Management/static/css/main.1bd161e3.css",
+    "main.js": "/Coal_Mines_Management/static/js/main.4ff3d7ab.js",
+    "static/js/239.2b17afd9.chunk.js": "/Coal_Mines_Management/static/js/239.2b17afd9.chunk.js",
+    "static/js/213.ede2cc13.chunk.js": "/Coal_Mines_Management/static/js/213.ede2cc13.chunk.js",
+    "static/js/455.682e9190.chunk.js": "/Coal_Mines_Management/static/js/455.682e9190.chunk.js",
+    "static/js/453.68693753.chunk.js": "/Coal_Mines_Management/static/js/453.68693753.chunk.js",
+    "static/media/background.jpeg": "/Coal_Mines_Management/static/media/background.33bc6281adefb80d2a0d.jpeg",
+    "static/media/coal2.jpg": "/Coal_Mines_Management/static/media/coal2.f39211978e11252aa271.jpg",
+    "static/media/coal1.jpg": "/Coal_Mines_Management/static/media/coal1.4d81bfaa484599502b44.jpg",
+    "static/media/coal3.jpg": "/Coal_Mines_Management/static/media/coal3.c79b0f6e6afa096f3c9f.jpg",
+    "static/media/background1.jpg": "/Coal_Mines_Management/static/media/background1.ec053f27db0925e949ee.jpg",
+    "static/media/satyamev.jpg": "/Coal_Mines_Management/static/media/satyamev.96934c38ecda9465ab18.jpg",
+    "static/media/slick.svg": "/Coal_Mines_Management/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Coal_Mines_Management/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Coal_Mines_Management/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Coal_Mines_Management/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Coal_Mines_Management/index.html",
+    "main.1bd161e3.css.map": "/Coal_Mines_Management/static/css/main.1bd161e3.css.map",
+    "main.4ff3d7ab.js.map": "/Coal_Mines_Management/static/js/main.4ff3d7ab.js.map",
+    "239.2b17afd9.chunk.js.map": "/Coal_Mines_Management/static/js/239.2b17afd9.chunk.js.map",
+    "213.ede2cc13.chunk.js.map": "/Coal_Mines_Management/static/js/213.ede2cc13.chunk.js.map",
+    "455.682e9190.chunk.js.map": "/Coal_Mines_Management/static/js/455.682e9190.chunk.js.map",
+    "453.68693753.chunk.js.map": "/Coal_Mines_Management/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bd161e3.css",
+    "static/js/main.4ff3d7ab.js"
+  ]
+}
