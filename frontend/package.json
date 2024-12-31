@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aman2125.github.io/Coal_Mines_Management/",
   "dependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
     "@popperjs/core": "^2.11.8",
@@ -49,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
