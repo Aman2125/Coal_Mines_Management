@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useCallback } from "react";
 import { FaSearch, FaExclamationTriangle, FaHistory, FaThermometerHalf, FaMapMarkerAlt } from "react-icons/fa";
-import { WiThunderstorm, WiEarthquake, WiHumidity, WiStrongWind } from "react-icons/wi";
+import { WiThunderstorm, WiEarthquake, WiHumidity, WiStrongWind, WiDust } from "react-icons/wi";
 import { GiEarthCrack, GiMining } from "react-icons/gi";
 import "./Alert.css";
 
@@ -324,6 +324,30 @@ const Alert = () => {
         <h1>Coal Mine Emergency Alert System</h1>
       </div>
 
+      <div className="tabs">
+        <button
+          className={`tab-btn ${activeTab === 'weather' ? 'active' : ''}`}
+          onClick={() => setActiveTab('weather')}
+        >
+          <WiThunderstorm />
+          Weather Alerts
+        </button>
+        <button
+          className={`tab-btn ${activeTab === 'seismic' ? 'active' : ''}`}
+          onClick={() => setActiveTab('seismic')}
+        >
+          <GiEarthCrack />
+          Seismic Alerts
+        </button>
+        <button
+          className={`tab-btn ${activeTab === 'air-quality' ? 'active' : ''}`}
+          onClick={() => window.location.href = '/air-quality'}
+        >
+          <WiDust />
+          Air Quality
+        </button>
+      </div>
+
       {activeTab === "weather" && (
         <div className="search-section">
           <div className="search-container">
@@ -420,23 +444,6 @@ const Alert = () => {
         </div>
       )}
 
-      <div className="tabs">
-        <button
-          className={`tab-btn ${activeTab === 'weather' ? 'active' : ''}`}
-          onClick={() => setActiveTab('weather')}
-        >
-          <WiThunderstorm />
-          Weather Alerts
-        </button>
-        <button
-          className={`tab-btn ${activeTab === 'seismic' ? 'active' : ''}`}
-          onClick={() => setActiveTab('seismic')}
-        >
-          <GiEarthCrack />
-          Seismic Alerts
-        </button>
-      </div>
-
       <div className="alerts-container">
         {activeTab === 'weather' && (
           <div className="weather-alerts">
@@ -471,4 +478,3 @@ const Alert = () => {
 };
 
 export default Alert;
-
